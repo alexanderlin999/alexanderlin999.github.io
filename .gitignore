@@ -1,43 +1,47 @@
-/tmp/cache/*
-*.scssc
+# Ignore OS generated files
+ehthumbs.db
+Thumbs.db
 
+# Ignore Editor files
+*.sublime-project
+*.sublime-workspace
+
+# osx specific files
+*~
+*.lock
+*.DS_Store
+*.swp
+*.out
+._*
+*.swp
+*.swo
+*.swn
+
+# Ignore log files
 *.log
 
-log/development.log
+# Ignore compiled files
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
 
-*.log
+# Ignore packaged files
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
 
-.idea/workspace.xml
-
-*.rbc
-*.sassc
+# Ignore node/grunt dependency directories
+node_modules
+.tmp
 .sass-cache
-capybara-*.html
-.rspec
-.rvmrc
-/.bundle
-/vendor/bundle
-/log/*
-/tmp/*
-/db/*.sqlite3
-/public/system/*
-/coverage/
-/spec/tmp/*
-**.orig
-rerun.txt
-pickle-email-*.html
-.project
-
-.idea/jsLibraryMappings.xml
-
-.idea/dataSources.xml
-
-.idea/dataSources.xml
-
-.idea/VaxGame.iml
-
-.idea/VaxGame.iml
-
-.idea/.generators
-
-.idea/.generators
+bower_components
+.publish
+docs/_site
